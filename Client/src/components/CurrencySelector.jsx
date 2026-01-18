@@ -18,7 +18,7 @@ const CurrencySelector = () => {
 		>
 			{loading && <option>Loading</option>}
 
-			{error && <option>Error</option>}
+			{error && <option>Errors</option>}
 
 			{!loading && !error && (
 				<>
